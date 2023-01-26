@@ -4,44 +4,313 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
     <title>BOOTCAMP HTML 2.</title>
   </head>
   <body>
     <header>
       <img src="" alt="Logo" />
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <a href="#">Menu</a>
+      <form name="search" action="">🔍</form>
+      <section>
+        <a href=""><img src="" alt="user" />Log ind</a>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="">Nyhedsbreve</a></li>
+          <li><a href="">Podcast</a></li>
+          <li><a href="">Køb abonnement</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="">Nyhedsbreve</a></li>
-        <li><a href="">Podcast</a></li>
-        <li><a href="">Køb abonnement</a></li>
-      </ul>
-    </nav>
-    <!--Announce-->
+    <!--Artiklen-->
     <main>
       <article>
         <p><span>Abonnement</span>Læsetid: 7 min.</p>
         <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui
-          laborum ducimus?
+          Gas er et godt politisk våben. Det er bare ikke putin, der bruger det
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
           eligendi eaque tempora! Nostrum harum recusandae minima earum, animi
           molestias eveniet iste, labore voluptate, voluptatibus in?
         </p>
-        <!--Flexbox text & img-->
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-            incidunt fuga eligendi quae, labore tempore ducimus aliquam cumque
-            recusandae voluptates!
-          </p>
-         <i><i class="fa-solid fa-camera"></i>Peter Nygaard Christensen</i>
-         <div><img src="" alt="Article img"></div>
-        </section>
       </article>
-      <h1>Test</h1><h1>Test</h1><h1>Test</h1>
+      <!--Manchet, byline & img-->
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas incidunt
+          fuga eligendi quae, labore tempore ducimus aliquam cumque recusandae
+          voluptates!
+        </p>
+        <i><i class="fa-solid fa-camera"></i>Peter Nygaard Christensen</i>
+        <div><img src="" alt="Article img" /></div>
+      </article>
+      <!--Udland-->
+      <div>
+        <h3>Udland</h3>
+        <p>7.Maj 2018</p>
+        <p>Kommentarer</p>
+      </div>
+      <section>
+        <hr />
+        <div>
+          <img src="" alt="portrait" />
+          <p>Jakob Stein</p>
+          <div><i>Email</i><i>Twitter</i></div>
+          <p>Peter Nygaard Christensen</p>
+          <i>Email</i>
+        </div>
+        <article>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
+            atque iure soluta cumque ab expedita temporibus nulla. Unde,
+            quisquam neque.
+          </p>
+          <a href="facebook.com">Del</a>
+          <a href="twitter.com">Tweet</a>
+          <a href="email">Email</a>
+        </article>
+      </section>
+      <!--Abonnent-->
+      <section>
+        <b
+          >Vores abonnemnter kalder os kritisk, seriøs og troværdig. Se om du er
+          enig...</b
+        >
+        <button>Klik her</button>
+        <p>allerede medlem?</p>
+        <a href="">Log ind her</a>
+      </section>
+      <!--Andet læsestof-->
+      <section>
+        <p>Fik du læst?</p>
+        <a href="">←</a>
+        <a href="">→</a>
+      </section>
+      <!--Slider-->
+      <div class="">
+        <figure class="">
+          <img src="" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+            accusantium voluptas.
+          </p>
+        </figure>
+        <figure class="slide-fade">
+          <img src="" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+            accusantium voluptas.
+          </p>
+        </figure>
+        <figure class="slide-fade">
+          <img src="" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+            accusantium voluptas.
+          </p>
+        </figure>
+        <figure class="slide-fade">
+          <img src="" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+            accusantium voluptas.
+          </p>
+        </figure>
+      </div>
+      <!--Seneste nyt-->
+      <section>
+        <p>Seneste nyt</p>
+        <a href="">information.dk</a>
+        <aside>
+          <ul>
+            <li>
+              <a href="">Slut med møntbetaling i Kbh</a>
+            </li>
+            <li>
+              <a href="">Energiminister: afgift..</a>
+            </li>
+            <li>
+              <a href="">Libanesisk pm parti går en tredjedel tilbage</a>
+            </li>
+            <li>
+              <a href="">Ombudsmand: offentligheden..</a>
+            </li>
+            <li>
+              <a href="">WWF: Vildsvinhegn skader..</a>
+            </li>
+          </ul>
+        </aside>
+      </section>
+      <!--Forsiden lige nu-->
+      <section>
+        <p>Forsiden lige nu</p>
+        <p>abonnement</p>
+        <figure>
+          <a href=""><img src="" alt="" />Gas er et godt politisk våben.</a>
+        </figure>
+        <figure>
+          <a href=""><img src="" alt="" />Mand dig op kvinde</a>
+        </figure>
+        <article>
+          <h3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
+            pariatur.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            porro?
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <p>abonnement</p>
+        <figure>
+          <a href=""><img src="" alt="" />Rapport fra norsk...</a>
+        </figure>
+        <article>
+          <p>Abonnement</p>
+          <h3>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
+            pariatur.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            porro?
+          </p>
+        </article>
+        <figure>
+          <p>Abonnement</p>
+          <a href=""><img src="" alt="" />440.000 Syrere er vendt....</a>
+        </figure>
+      </section>
+
+      <!--Anbefalinger-->
+      <section>
+        <h3>Anbefalinger</h3>
+        <p>Anbefal artikel</p>
+      </section>
+      <section>
+        <p>Kommentarer</p>
+        <img src="" alt="profilbillede" />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
+          aspernatur ipsa sint, asperiores perspiciatis autem ipsam harum omnis,
+          ratione dignissimos eos quis.
+        </p>
+      </section>
+      <section>
+        <p>Kommentarer</p>
+        <img src="" alt="profilbillede" />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
+          aspernatur ipsa sint, asperiores perspiciatis autem ipsam harum omnis,
+          ratione dignissimos eos quis.
+        </p>
+        <p>
+          Du skal være registreret for at kommentere. <a href="">Log in</a> eller
+          <a href="">opret bruger</a>
+        </p>
+      </section>
+      <!--Footer-->
+      <footer>
+        <section>
+          <h3>information som e-avis</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+            assumenda totam?
+          </p>
+          <ul>
+            <li>
+              <a href="">Læs e-avis</a>
+            </li>
+            <li>
+              <a href="">download</a>
+            </li>
+            <li>
+              <a href="">download</a>
+            </li>
+          </ul>
+          <p>Følg avisen</p>
+          <ul>
+            <li>
+              <a href="">Læs e-avis</a>
+            </li>
+            <li>
+              <a href="">download</a>
+            </li>
+            <li>
+              <a href="">download</a>
+            </li>
+          </ul>
+        </section>
+        <figure>
+          <img src="" alt="billedeavis" />
+        </figure>
+        <section>
+          <label for="">information hver morgen</label>
+          <form action="e-mail">Skriv din email her</form>
+          <button type="submit">Tilmeld</button>
+          <section>
+            <p>køb avisen</p>
+            <ul>
+              <li>
+                <a href="">Få et godt tilbud</a>
+              </li>
+              <li>
+                <a href="">Få et godt tilbud</a>
+              </li>
+              <li>
+                <a href="">Få et godt tilbud</a>
+              </li>
+              <li>
+                <a href="">Få et godt tilbud</a>
+              </li>
+              <li>
+                <a href="">Få et godt tilbud</a>
+              </li>
+              <li>
+                <a href="">Få et godt tilbud</a>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <h3>Om informartion</h3>
+          <ul>
+            <li>
+              <a href="">redaktion</a>
+            </li>
+            <li>
+              <a href="">iBureauet</a>
+            </li>
+            <li>
+              <a href="">Besøg butikken</a>
+            </li>
+            <li>
+              <a href="">information</a>
+            </li>
+            <li>
+              <a href="">ledige stillinger</a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod!</small>
+          <button>Skriv til os</button>
+        </section>
+      </footer>
     </main>
   </body>
 </html>
